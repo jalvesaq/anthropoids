@@ -1,0 +1,12 @@
+po/*.mo
+src/*.Rout
+src/*.csv
+src/*.o
+src/anthropoids
+src/followedAgents
+src/graphics.pdf
+src/knownPatches
+src/lastParameters
+src/parameters
+src/statistics
+src/world_*.png
