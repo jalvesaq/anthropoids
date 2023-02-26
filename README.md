@@ -77,7 +77,9 @@ repetition of the previous one. To get different "histories", it is necessary
 to change the random seed passing the parameter `-s` to anthropoids
 followed by a number. Example:
 
-    ./anthropoids -s 237243
+```
+./anthropoids -s 237243
+```
 
 Using a different seed does not change the average initial values of the
 variables: you have to edit the file `parameters`. This file is
@@ -110,7 +112,9 @@ simulation, but they can also be created at any time by sending the
 signal USR2 to anthropoids. You can send this signal with the following
 command:
 
+```
     killall -s USR2 anthropoids
+```
 
 Without parameters, the command `killall` kills the program by sending
 the SIGTERM signal. The option `-s USR2` means that the signal to be
@@ -119,11 +123,22 @@ sent must be `USR2` (Second User Defined Signal).
 You can run anthropoids without graphics. To run anthropoids in batch mode,
 you have to add option `-b`, as below:
 
+```
     ./anthropoids -b -s <number>
+```
 
 In this case, the simulation duration will be defined by the value of
 `ExperimentDuration` which might be defined in the file
 `parameters`. If you do not want to wait for `ExperimentDuration`,
 you can terminate the simulation at any moment with the command:
 
-    killall -s USR1 anthropoids
+```
+killall -s USR1 anthropoids
+```
+
+
+## Reference
+
+Aquino, J. A. (2011).
+Cooperation among virtual anthropoids in a complex environment.
+_Interdisciplinary Description of Complex Systems_, 9(1), 56–80.
