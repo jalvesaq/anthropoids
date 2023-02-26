@@ -354,20 +354,7 @@ void Model::analyse()
     }     
     RegCloseKey(keyHandle);
 #else
-    strcpy(Rpath, "/usr/bin/R");
-    f = fopen(Rpath, "r");
-    if(f == NULL){
-        strcpy(Rpath, "/usr/local/bin/R");
-        f = fopen(Rpath, "r");
-    }
-    if(f == NULL)
-        strcpy(Rpath, "");
-    else
-        fclose(f);
-    if(f)
-        strcat(Rpath, " CMD BATCH");
-    else
-        strcpy(Rpath, "R CMD BATCH");
+    strcpy(Rpath, "R CMD BATCH");
 #endif
     if(strlen(Rpath) > 0){
         char *cmd = (char*)calloc(strlen(Rpath) + strlen(scriptPath) + 2, sizeof(char));
