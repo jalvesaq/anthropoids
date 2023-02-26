@@ -1,0 +1,56 @@
+
+GSLLIBS := $(shell pkg-config gsl --libs)
+
+CFLAGS=-DNOGUI -g -O2 -Wall -Wextra -pedantic -c
+
+OBJS=anthropoids.o Model.o Cell.o list.o Patch.o Prey.o THV.o Tree.o abmtools.o Agent.o Alliance.o
+
+HEADERS=abmtools.h Agent.h Alliance.h Cell.h config.h list.h Model.h Patch.h Prey.h THV.h Tree.h
+
+anthropoids: $(OBJS)
+	g++ -O2 -o anthropoids $(OBJS) $(GSLLIBS)
+
+list.o: list.cc list.h abmtools.h
+	g++ $(CFLAGS) -o list.o list.cc
+
+abmtools.o: abmtools.cc abmtools.h
+	g++ $(CFLAGS) -o abmtools.o abmtools.cc
+
+Agent.o: Agent.cc $(HEADERS)
+	g++ $(CFLAGS) -o Agent.o Agent.cc
+
+Alliance.o: Alliance.cc $(HEADERS)
+	g++ $(CFLAGS) -o Alliance.o Alliance.cc
+
+anthropoids.o: anthropoids.cc $(HEADERS)
+	g++ $(CFLAGS) -o anthropoids.o anthropoids.cc
+
+Cell.o: Cell.cc $(HEADERS)
+	g++ $(CFLAGS) -o Cell.o Cell.cc
+
+Model.o: Model.cc $(HEADERS)
+	g++ $(CFLAGS) -o Model.o Model.cc
+
+Patch.o: Patch.cc $(HEADERS)
+	g++ $(CFLAGS) -o Patch.o Patch.cc
+
+Prey.o: Prey.cc $(HEADERS)
+	g++ $(CFLAGS) -o Prey.o Prey.cc
+
+THV.o: THV.cc $(HEADERS)
+	g++ $(CFLAGS) -o THV.o THV.cc
+
+Tree.o: Tree.cc $(HEADERS)
+	g++ $(CFLAGS) -o Tree.o Tree.cc
+
+install: anthropoids
+	install -s anthropoids /usr/local/bin/anthropoids
+	mkdir -p /usr/local/share/doc/anthropoids
+	cp analyse.R /usr/local/share/doc/anthropoids
+
+data_clean:
+	rm -f *.csv world_*.png parameters lastParameters followedAgents statistics knownPatches
+
+clean:
+	rm -f *.o anthropoids
+

@@ -1,0 +1,494 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-24 08:33-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/Agent.cc:2900
+#, c-format
+msgid "I'm flying from (%d %d)\n"
+msgstr ""
+
+#: ../src/Agent.cc:3263
+#, c-format
+msgid "I'm migrating to (%d %d) "
+msgstr ""
+
+#: ../src/Agent.cc:3266
+#, c-format
+msgid "[Best cell]\n"
+msgstr ""
+
+#: ../src/Agent.cc:3269
+#, c-format
+msgid "[Best patch]\n"
+msgstr ""
+
+#: ../src/Agent.cc:3272
+#, c-format
+msgid "[Following other]\n"
+msgstr ""
+
+#: ../src/Agent.cc:3275
+#, c-format
+msgid "[Random place]\n"
+msgstr ""
+
+#: ../src/Agent.cc:3278
+#, c-format
+msgid "[Accepted invitation]\n"
+msgstr ""
+
+#: ../src/Agent.cc:3368
+#, c-format
+msgid "I'm migrating to (%d %d), [Accepted invitation]\n"
+msgstr ""
+
+#: ../src/Agent.cc:4380
+#, c-format
+msgid "I received food:            "
+msgstr ""
+
+#: ../src/Agent.cc:4383
+#, c-format
+msgid "I gave food:                "
+msgstr ""
+
+#: ../src/Agent.cc:4386
+#, c-format
+msgid "Reading my mother's memory: "
+msgstr ""
+
+#: ../src/Agent.cc:4389
+#, c-format
+msgid "My gratitude to my mother:  "
+msgstr ""
+
+#: ../src/Agent.cc:4392
+#, c-format
+msgid "My child is adult now:      "
+msgstr ""
+
+#: ../src/Agent.cc:4395
+#, c-format
+msgid "I received a child:         "
+msgstr ""
+
+#: ../src/Agent.cc:4398
+#, c-format
+msgid "I gave a child:             "
+msgstr ""
+
+#: ../src/Agent.cc:4401
+#, c-format
+msgid "No in territory confl. ivt: "
+msgstr ""
+
+#: ../src/Agent.cc:4404
+#, c-format
+msgid "Patrol ally:                "
+msgstr ""
+
+#: ../src/Agent.cc:4407
+#, c-format
+msgid "Patrol enemy:               "
+msgstr ""
+
+#: ../src/Agent.cc:4410
+#, c-format
+msgid "No in hunt invitation:      "
+msgstr ""
+
+#: ../src/Agent.cc:4413
+#, c-format
+msgid "Hunt partner:               "
+msgstr ""
+
+#: ../src/Agent.cc:4416
+#, c-format
+msgid "No in sex proposal:         "
+msgstr ""
+
+#: ../src/Agent.cc:4419
+#, c-format
+msgid "I was in a kid's mother mem:"
+msgstr ""
+
+#: ../src/Agent.cc:4422
+#, c-format
+msgid "No in food share:           "
+msgstr ""
+
+#: ../src/Agent.cc:4425
+#, c-format
+msgid "I said no in sex proposal:  "
+msgstr ""
+
+#: ../src/Agent.cc:4428
+#, c-format
+msgid "I punished someone:         "
+msgstr ""
+
+#: ../src/Agent.cc:4431
+#, c-format
+msgid "I was punished:             "
+msgstr ""
+
+#: ../src/Agent.cc:4434
+#, c-format
+msgid "Not fair in meat distrib.:  "
+msgstr ""
+
+#: ../src/Agent.cc:4437
+#, c-format
+msgid "Bold request for food:      "
+msgstr ""
+
+#: ../src/Agent.cc:5124
+msgid "followedAgents"
+msgstr ""
+
+#: ../src/Agent.cc:5126
+msgid "Could not open file \"followedAgents\""
+msgstr ""
+
+#: ../src/Agent.cc:5521
+#, c-format
+msgid "NAME [ received ] [ given ]\n"
+msgstr ""
+
+#: ../src/Agent.cc:5528
+#, c-format
+msgid "Visited Patches: "
+msgstr ""
+
+#: ../src/Cell.cc:142 ../src/Prey.cc:45
+msgid "IMPOSSIBLE"
+msgstr ""
+
+#: ../src/Model.cc:123
+#, c-format
+msgid "parameter \"%s\" alread initialized!\n"
+msgstr ""
+
+#: ../src/Model.cc:144
+#, c-format
+msgid "option \"%s\" does not exist!\n"
+msgstr ""
+
+#: ../src/Model.cc:195
+#, c-format
+msgid "We're running without graphics for %d timesteps (%d years and %d days)."
+msgstr ""
+
+#: ../src/Model.cc:208
+#, c-format
+msgid "The model is logging data every timestep (hour).\n"
+msgstr ""
+
+#: ../src/Model.cc:211
+#, c-format
+msgid "The model is logging data every %d timesteps (hours).\n"
+msgstr ""
+
+#: ../src/Model.cc:309
+msgid ""
+"Data is not being logged. Change the value of LogInterval in the "
+"\"parameters\" file."
+msgstr ""
+
+#: ../src/Model.cc:323
+#, c-format
+msgid "Could not find \"%s\"\n"
+msgstr ""
+
+#: ../src/Model.cc:379 ../src/Model.cc:410
+#, c-format
+msgid "Error running \"%s\"."
+msgstr ""
+
+#: ../src/Model.cc:432
+msgid "Could not run a pdf reader."
+msgstr ""
+
+#: ../src/Model.cc:438
+msgid "Is R installed?"
+msgstr ""
+
+#: ../src/Model.cc:504
+msgid "Error creating file \"parameters\" with default values."
+msgstr ""
+
+#: ../src/Model.cc:697
+msgid ""
+"The file \"parameters\" was written with default values.\n"
+"         Edit it to change \"anthropoids\" behavior."
+msgstr ""
+
+#: ../src/Model.cc:712
+msgid "Error opening file \"parameters\""
+msgstr ""
+
+#: ../src/Model.cc:716
+msgid "Error writing file \"lastParameters\""
+msgstr ""
+
+#: ../src/Model.cc:910
+#, c-format
+msgid "parameter \"%s\" is unitialized!\n"
+msgstr ""
+
+#: ../src/Model.cc:944
+#, c-format
+msgid ""
+"The world dimensions (%d x %d) aren't enough to carry %d trees! Please, "
+"choose a lower density for trees.\n"
+msgstr ""
+
+#: ../src/Model.cc:952
+#, c-format
+msgid "Tree%dSeasonEnd must be bigger than Tree%dSeasonBegin!\n"
+msgstr ""
+
+#: ../src/Model.cc:957
+#, c-format
+msgid "Tree%dSeasonEnd must be lower than YearDuration!\n"
+msgstr ""
+
+#: ../src/Model.cc:962
+#, c-format
+msgid ""
+"Both WorldXSize and WorldYSize must be at least twice as big as MaxVision!\n"
+msgstr ""
+
+#: ../src/Model.cc:966
+#, c-format
+msgid "MaxVision can't be shorter than NearView!\n"
+msgstr ""
+
+#: ../src/Model.cc:975
+#, c-format
+msgid "MaxEnergy must be at least 5.0!\n"
+msgstr ""
+
+#: ../src/Model.cc:1345
+#, c-format
+msgid ""
+"Dumping agents' memory to \"agRemembrances.csv\" and entire population to "
+"\"entirePop.csv\".\n"
+msgstr ""
+
+#: ../src/Model.cc:1375
+#, c-format
+msgid "Creating cells.\n"
+msgstr ""
+
+#: ../src/Model.cc:1420 ../src/Model.cc:1425
+msgid "gridTemplate.pbm isn't a valid pbm file in ascii format."
+msgstr ""
+
+#: ../src/Model.cc:1432
+msgid "Error reading gridTemplate.pbm. Could not find the pbm width."
+msgstr ""
+
+#: ../src/Model.cc:1434
+msgid "Error reading gridTemplate.pbm. Could not find the pbm height."
+msgstr ""
+
+#: ../src/Model.cc:1436
+msgid ""
+"The gridTemplate.pbm dimensions must be either the same or bigger than the "
+"world ones."
+msgstr ""
+
+#: ../src/Model.cc:1446
+msgid "Ran out of data reading gridTemplate.pbm."
+msgstr ""
+
+#: ../src/Model.cc:1471
+#, c-format
+msgid "Creating trees.\n"
+msgstr ""
+
+#: ../src/Model.cc:1548
+#, c-format
+msgid "Merging adjacent patches of trees.\n"
+msgstr ""
+
+#: ../src/Model.cc:1550
+#, c-format
+msgid "Initial number of patches: %d\n"
+msgstr ""
+
+#: ../src/Model.cc:1577
+#, c-format
+msgid "Final number of patches: %d\n"
+msgstr ""
+
+#: ../src/Model.cc:1603
+#, c-format
+msgid "Creating terrestrial herbaceous vegetation.\n"
+msgstr ""
+
+#: ../src/Model.cc:1844
+#, c-format
+msgid "THE END: Year %d, day %d (n_males = %d, n_females = %d)\n"
+msgstr ""
+
+#: ../src/Model.cc:1862
+#, c-format
+msgid "Error trying to create the file \"agRemembrances.csv\".\n"
+msgstr ""
+
+#: ../src/Model.cc:1867
+#, c-format
+msgid "Error trying to create the file \"knownPatches\".\n"
+msgstr ""
+
+#: ../src/Model.cc:1925
+#, c-format
+msgid ""
+"\n"
+"Dumping the memory of agents into \"agRemembrances.csv\".\n"
+msgstr ""
+
+#: ../src/abmtools.cc:63
+#, c-format
+msgid ""
+"FATAL ERROR: \"%s\", line %d\n"
+"    "
+msgstr ""
+
+#: ../src/abmtools.cc:67
+msgid "FATAL ERROR!"
+msgstr ""
+
+#: ../src/abmtools.cc:93 ../src/abmtools.cc:101 ../src/abmtools.cc:103
+#, c-format
+msgid "Warning:"
+msgstr ""
+
+#: ../src/anthropoids.cc:43
+#, c-format
+msgid "Received signal USR1.\n"
+msgstr ""
+
+#: ../src/anthropoids.cc:48
+#, c-format
+msgid "Signal USR2 received!\n"
+msgstr ""
+
+#: ../src/anthropoids.cc:52
+#, c-format
+msgid "I don't know what to do with this signal (%d)!\n"
+msgstr ""
+
+#: ../src/anthropoids.cc:61
+#, c-format
+msgid "Valid options are:"
+msgstr ""
+
+#: ../src/anthropoids.cc:63
+#, c-format
+msgid "-b          : Run in batch mode."
+msgstr ""
+
+#: ../src/anthropoids.cc:65
+#, c-format
+msgid ""
+"-d          : Save results in $HOME/anthropoids instead of using currenty "
+"directory."
+msgstr ""
+
+#: ../src/anthropoids.cc:67
+#, c-format
+msgid "-s          : Select random number seed from current time."
+msgstr ""
+
+#: ../src/anthropoids.cc:69
+#, c-format
+msgid "-S <number> : Specify a seed for the random numbers generator."
+msgstr ""
+
+#: ../src/anthropoids.cc:71
+#, c-format
+msgid "-h, --help  : Gives this help list and exits."
+msgstr ""
+
+#: ../src/anthropoids.cc:111
+#, c-format
+msgid "Incorrect use of option \"-S\"."
+msgstr ""
+
+#: ../src/anthropoids.cc:118
+#, c-format
+msgid "Unknown option \"%s\"."
+msgstr ""
+
+#: ../src/anthropoids.cc:163
+#, c-format
+msgid ""
+"The best way of stopping the program at an arbitrary time is with the "
+"command:"
+msgstr ""
+
+#: ../src/control.cc:997
+msgid "Run"
+msgstr ""
+
+#: ../src/control.cc:998
+msgid "Step"
+msgstr ""
+
+#: ../src/control.cc:999
+msgid "View world"
+msgstr ""
+
+#: ../src/control.cc:1000
+msgid "Run graphics"
+msgstr ""
+
+#: ../src/control.cc:1001
+msgid "Take a picture"
+msgstr ""
+
+#: ../src/control.cc:1002
+msgid "Quit"
+msgstr ""
+
+#: ../src/control.cc:1010
+msgid "Virtual anthropoids"
+msgstr ""
+
+#: ../src/control.cc:1161
+msgid "The image can be created only if the world is visible."
+msgstr ""
+
+#: ../src/listWindow.cc:31
+msgid "Agent List"
+msgstr ""
+
+#: ../src/listWindow.cc:41
+msgid "Age"
+msgstr ""
+
+#: ../src/listWindow.cc:42
+msgid "Sex"
+msgstr ""
+
+#: ../src/listWindow.cc:43
+msgid "Energy"
+msgstr ""

@@ -1,0 +1,521 @@
+# ANTHROPOIDS - Agent based simulation
+# Copyright (C) 2008 Jakson Alves de Aquino
+# This file is distributed under the same license as the anthropoids package.
+# Jakson Alves de Aquino <jalvesaq@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: anthropoids-1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-24 08:33-0300\n"
+"PO-Revision-Date: 2022-10-05 22:15-0300\n"
+"Last-Translator: Jakson Alves de Aquino <jalvesaq@gmail.com>\n"
+"Language-Team: pt <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/Agent.cc:2900
+#, c-format
+msgid "I'm flying from (%d %d)\n"
+msgstr "Estou fugindo de (%d %d)\n"
+
+#: ../src/Agent.cc:3263
+#, c-format
+msgid "I'm migrating to (%d %d) "
+msgstr "Estou migrando para (%d %d) "
+
+#: ../src/Agent.cc:3266
+#, c-format
+msgid "[Best cell]\n"
+msgstr "[Melhor célula]\n"
+
+#: ../src/Agent.cc:3269
+#, c-format
+msgid "[Best patch]\n"
+msgstr "[Melhor grupo de árv.]\n"
+
+#: ../src/Agent.cc:3272
+#, c-format
+msgid "[Following other]\n"
+msgstr "[Seguindo outro]\n"
+
+#: ../src/Agent.cc:3275
+#, c-format
+msgid "[Random place]\n"
+msgstr "[Lugar aleatório]\n"
+
+#: ../src/Agent.cc:3278
+#, c-format
+msgid "[Accepted invitation]\n"
+msgstr "[Aceitando convite]\n"
+
+#: ../src/Agent.cc:3368
+#, c-format
+msgid "I'm migrating to (%d %d), [Accepted invitation]\n"
+msgstr "Estou migrando para (%d %d), [Aceitei convite]\n"
+
+#: ../src/Agent.cc:4380
+#, c-format
+msgid "I received food:            "
+msgstr "Recebi comida:                   "
+
+#: ../src/Agent.cc:4383
+#, c-format
+msgid "I gave food:                "
+msgstr "Dei comida:                      "
+
+#: ../src/Agent.cc:4386
+#, c-format
+msgid "Reading my mother's memory: "
+msgstr "Lendo a memória materna:         "
+
+#: ../src/Agent.cc:4389
+#, c-format
+msgid "My gratitude to my mother:  "
+msgstr "Minha gratidão p/ com minha mãe: "
+
+#: ../src/Agent.cc:4392
+#, c-format
+msgid "My child is adult now:      "
+msgstr "Meu filho está adulto agora:     "
+
+#: ../src/Agent.cc:4395
+#, c-format
+msgid "I received a child:         "
+msgstr "Recebi um filho:                 "
+
+#: ../src/Agent.cc:4398
+#, c-format
+msgid "I gave a child:             "
+msgstr "Dei um filho:                    "
+
+#: ../src/Agent.cc:4401
+#, c-format
+msgid "No in territory confl. ivt: "
+msgstr "Não em conv. para confl. por T.: "
+
+#: ../src/Agent.cc:4404
+#, c-format
+msgid "Patrol ally:                "
+msgstr "Aliado em patrulha:              "
+
+#: ../src/Agent.cc:4407
+#, c-format
+msgid "Patrol enemy:               "
+msgstr "Inimigo em patrulha:             "
+
+#: ../src/Agent.cc:4410
+#, c-format
+msgid "No in hunt invitation:      "
+msgstr "Não em convite para caçar:       "
+
+#: ../src/Agent.cc:4413
+#, c-format
+msgid "Hunt partner:               "
+msgstr "Companheiro de caça:             "
+
+#: ../src/Agent.cc:4416
+#, c-format
+msgid "No in sex proposal:         "
+msgstr "Não em proposta de copulação:    "
+
+#: ../src/Agent.cc:4419
+#, c-format
+msgid "I was in a kid's mother mem:"
+msgstr "Estava na memória da mãe de alg: "
+
+#: ../src/Agent.cc:4422
+#, c-format
+msgid "No in food share:           "
+msgstr "Não em pedido de comida:         "
+
+#: ../src/Agent.cc:4425
+#, c-format
+msgid "I said no in sex proposal:  "
+msgstr "Eu disse NÃO em proposta de sexo:"
+
+#: ../src/Agent.cc:4428
+#, c-format
+msgid "I punished someone:         "
+msgstr "Puni alguém:                     "
+
+#: ../src/Agent.cc:4431
+#, c-format
+msgid "I was punished:             "
+msgstr "Fui punido:                      "
+
+#: ../src/Agent.cc:4434
+#, c-format
+msgid "Not fair in meat distrib.:  "
+msgstr "Injust em distrib. de carne:     "
+
+#: ../src/Agent.cc:4437
+#, c-format
+msgid "Bold request for food:      "
+msgstr "Pedido desavergonhado de comida: "
+
+#: ../src/Agent.cc:5124
+msgid "followedAgents"
+msgstr "agentesSeguidos"
+
+#: ../src/Agent.cc:5126
+msgid "Could not open file \"followedAgents\""
+msgstr "Não foi possível abrir o arquivo \"agentesSeguidos\""
+
+#: ../src/Agent.cc:5521
+#, c-format
+msgid "NAME [ received ] [ given ]\n"
+msgstr "NOME [ recebido ] [  dado ]\n"
+
+#: ../src/Agent.cc:5528
+#, c-format
+msgid "Visited Patches: "
+msgstr "Regiões visitadas: "
+
+#: ../src/Cell.cc:142 ../src/Prey.cc:45
+msgid "IMPOSSIBLE"
+msgstr "IMPOSSÍVEL"
+
+#: ../src/Model.cc:123
+#, c-format
+msgid "parameter \"%s\" alread initialized!\n"
+msgstr "parâmetro \"%s\" já inicializado!\n"
+
+#: ../src/Model.cc:144
+#, c-format
+msgid "option \"%s\" does not exist!\n"
+msgstr "opção \"%s\" não existe!\n"
+
+#: ../src/Model.cc:195
+#, c-format
+msgid "We're running without graphics for %d timesteps (%d years and %d days)."
+msgstr ""
+"Estamos rodando o jogo sem gráficos por %d unidades de tempo (%d anos e %d "
+"dias)."
+
+#: ../src/Model.cc:208
+#, c-format
+msgid "The model is logging data every timestep (hour).\n"
+msgstr "O modelo está registrando dados a cada unidade de tempo (hora).\n"
+
+#: ../src/Model.cc:211
+#, c-format
+msgid "The model is logging data every %d timesteps (hours).\n"
+msgstr "O modelo está registrando dados a cada %d unidades de tempo (horas).\n"
+
+#: ../src/Model.cc:309
+msgid ""
+"Data is not being logged. Change the value of LogInterval in the "
+"\"parameters\" file."
+msgstr ""
+"Os dados não estão sendo registrados. Mude o valor de LogInterval no arquivo "
+"\"parameters\"."
+
+#: ../src/Model.cc:323
+#, c-format
+msgid "Could not find \"%s\"\n"
+msgstr "Arquivo \"%s\" não encontrado\n"
+
+#: ../src/Model.cc:379 ../src/Model.cc:410
+#, c-format
+msgid "Error running \"%s\"."
+msgstr "Error executando \"%s\"."
+
+#: ../src/Model.cc:432
+msgid "Could not run a pdf reader."
+msgstr "Não foi possível executar leitor de pdf."
+
+#: ../src/Model.cc:438
+msgid "Is R installed?"
+msgstr "O R está instalado?"
+
+#: ../src/Model.cc:504
+msgid "Error creating file \"parameters\" with default values."
+msgstr "Erro criando arquivo \"parameters\" com valores padrões."
+
+#: ../src/Model.cc:697
+msgid ""
+"The file \"parameters\" was written with default values.\n"
+"         Edit it to change \"anthropoids\" behavior."
+msgstr ""
+"AVISO: O arquivo \"parameters\" foi escrito com valores padrões.\n"
+"       Será preciso editá-lo para alterar o comportamento do \"anthropoids\"."
+
+#: ../src/Model.cc:712
+msgid "Error opening file \"parameters\""
+msgstr "Erro abrindo o arquivo \"parameters\""
+
+#: ../src/Model.cc:716
+msgid "Error writing file \"lastParameters\""
+msgstr "Erro escrevendo o arquivo \"parameters\""
+
+#: ../src/Model.cc:910
+#, c-format
+msgid "parameter \"%s\" is unitialized!\n"
+msgstr "parâmetro \"%s\" não foi inicializado!\n"
+
+#: ../src/Model.cc:944
+#, c-format
+msgid ""
+"The world dimensions (%d x %d) aren't enough to carry %d trees! Please, "
+"choose a lower density for trees.\n"
+msgstr ""
+"As dimensões do mundo (%d x %d) não são suficientes para %d árvores! Escolha "
+"uma densidade menor para as árvores.\n"
+
+#: ../src/Model.cc:952
+#, c-format
+msgid "Tree%dSeasonEnd must be bigger than Tree%dSeasonBegin!\n"
+msgstr "Tree%dSeasonEnd deve ser maior do que Tree%dSeasonBegin!\n"
+
+#: ../src/Model.cc:957
+#, c-format
+msgid "Tree%dSeasonEnd must be lower than YearDuration!\n"
+msgstr "Tree%dSeasonEnd deve ser menor do que YearDuration!\n"
+
+#: ../src/Model.cc:962
+#, c-format
+msgid ""
+"Both WorldXSize and WorldYSize must be at least twice as big as MaxVision!\n"
+msgstr ""
+"WorldXSize ed WorldYSize devem ser pelo menos duas vezes maiores do que "
+"MaxVision!\n"
+
+#: ../src/Model.cc:966
+#, c-format
+msgid "MaxVision can't be shorter than NearView!\n"
+msgstr "MaxVision não pode ser menor curta do que NearView!\n"
+
+#: ../src/Model.cc:975
+#, c-format
+msgid "MaxEnergy must be at least 5.0!\n"
+msgstr "MaxEnergy deve ser pelo menos 5.0!\n"
+
+#: ../src/Model.cc:1345
+#, c-format
+msgid ""
+"Dumping agents' memory to \"agRemembrances.csv\" and entire population to "
+"\"entirePop.csv\".\n"
+msgstr ""
+"Salvando memória dos agentes em agRemembrances.csv e a população completa em "
+"entirePop.csv.\n"
+
+#: ../src/Model.cc:1375
+#, c-format
+msgid "Creating cells.\n"
+msgstr "Criando células.\n"
+
+#: ../src/Model.cc:1420 ../src/Model.cc:1425
+msgid "gridTemplate.pbm isn't a valid pbm file in ascii format."
+msgstr "gridTemplate.pbm não é uma arquivo pbm no formato ascii válido."
+
+#: ../src/Model.cc:1432
+msgid "Error reading gridTemplate.pbm. Could not find the pbm width."
+msgstr ""
+"Erro lendo gridTemplate.pbm. Não foi possível encontrar a largura da figura."
+
+#: ../src/Model.cc:1434
+msgid "Error reading gridTemplate.pbm. Could not find the pbm height."
+msgstr ""
+"Erro lendo gridTemplate.pbm. Não foi possível encontrar o comprimento da "
+"figura."
+
+#: ../src/Model.cc:1436
+msgid ""
+"The gridTemplate.pbm dimensions must be either the same or bigger than the "
+"world ones."
+msgstr ""
+"As dimensões de gridTemplate.pbm devem ser iguais ou maiores do que as do "
+"mundo."
+
+#: ../src/Model.cc:1446
+msgid "Ran out of data reading gridTemplate.pbm."
+msgstr "Quantidade insuficiente de dados em gridTemplate."
+
+#: ../src/Model.cc:1471
+#, c-format
+msgid "Creating trees.\n"
+msgstr "Criando árvores.\n"
+
+#: ../src/Model.cc:1548
+#, c-format
+msgid "Merging adjacent patches of trees.\n"
+msgstr "Unindo aglomerados de árvores adjacentes.\n"
+
+#: ../src/Model.cc:1550
+#, c-format
+msgid "Initial number of patches: %d\n"
+msgstr "Número inicial de regiões: %d\n"
+
+#: ../src/Model.cc:1577
+#, c-format
+msgid "Final number of patches: %d\n"
+msgstr "Número final de regiões: %d\n"
+
+#: ../src/Model.cc:1603
+#, c-format
+msgid "Creating terrestrial herbaceous vegetation.\n"
+msgstr "Criando vegetação rasteira.\n"
+
+#: ../src/Model.cc:1844
+#, c-format
+msgid "THE END: Year %d, day %d (n_males = %d, n_females = %d)\n"
+msgstr "FIM: Ano %d, dia %d (n_machos = %d, n_fêmeas = %d)\n"
+
+#: ../src/Model.cc:1862
+#, c-format
+msgid "Error trying to create the file \"agRemembrances.csv\".\n"
+msgstr "Erro tentando criar o arquivo \"agRemembrances.csv\".\n"
+
+#: ../src/Model.cc:1867
+#, c-format
+msgid "Error trying to create the file \"knownPatches\".\n"
+msgstr "Erro tentando criar o arquivo \"agRemembrances.csv\".\n"
+
+#: ../src/Model.cc:1925
+#, c-format
+msgid ""
+"\n"
+"Dumping the memory of agents into \"agRemembrances.csv\".\n"
+msgstr ""
+"\n"
+"Salvando memória dos agentes no arquivo \"agRemembrances.csv\".\n"
+
+#: ../src/abmtools.cc:63
+#, c-format
+msgid ""
+"FATAL ERROR: \"%s\", line %d\n"
+"    "
+msgstr ""
+"ERRO FATAL: \"%s\", linha %d\n"
+"    "
+
+#: ../src/abmtools.cc:67
+msgid "FATAL ERROR!"
+msgstr "ERRO FATAL!"
+
+#: ../src/abmtools.cc:93 ../src/abmtools.cc:101 ../src/abmtools.cc:103
+#, c-format
+msgid "Warning:"
+msgstr "Aviso:"
+
+#: ../src/anthropoids.cc:43
+#, c-format
+msgid "Received signal USR1.\n"
+msgstr "Sinal USR1 recebido.\n"
+
+#: ../src/anthropoids.cc:48
+#, c-format
+msgid "Signal USR2 received!\n"
+msgstr "Sinal USR2 recebido.\n"
+
+#: ../src/anthropoids.cc:52
+#, c-format
+msgid "I don't know what to do with this signal (%d)!\n"
+msgstr "Não sei o que fazer com esse sinal (%d)!\n"
+
+#: ../src/anthropoids.cc:61
+#, c-format
+msgid "Valid options are:"
+msgstr "Opções válidas são:"
+
+#: ../src/anthropoids.cc:63
+#, c-format
+msgid "-b          : Run in batch mode."
+msgstr "-b          : Roda sem modo gráfico."
+
+#: ../src/anthropoids.cc:65
+#, c-format
+msgid ""
+"-d          : Save results in $HOME/anthropoids instead of using currenty "
+"directory."
+msgstr ""
+"-d          : Salva os resultados em $HOME/anthropoids ao invés de usar o "
+"diretório atual."
+
+#: ../src/anthropoids.cc:67
+#, c-format
+msgid "-s          : Select random number seed from current time."
+msgstr ""
+"-s          : Seleciona semente para números aleatórios do tempo atual."
+
+#: ../src/anthropoids.cc:69
+#, c-format
+msgid "-S <number> : Specify a seed for the random numbers generator."
+msgstr ""
+"-S <número> : Especifica uma semente para o gerador de números aleatórios."
+
+#: ../src/anthropoids.cc:71
+#, c-format
+msgid "-h, --help  : Gives this help list and exits."
+msgstr "-h, --help  : Mostra esta ajuda e sai."
+
+#: ../src/anthropoids.cc:111
+#, c-format
+msgid "Incorrect use of option \"-S\"."
+msgstr "Uso incorreto da opção \"-S\"."
+
+#: ../src/anthropoids.cc:118
+#, c-format
+msgid "Unknown option \"%s\"."
+msgstr "Opção desconhecida: \"%s\"."
+
+#: ../src/anthropoids.cc:163
+#, c-format
+msgid ""
+"The best way of stopping the program at an arbitrary time is with the "
+"command:"
+msgstr "O melhor modo de parar o programa a qualquer momento é com o comando:"
+
+#: ../src/control.cc:997
+msgid "Run"
+msgstr "Executar"
+
+#: ../src/control.cc:998
+msgid "Step"
+msgstr "Dar um passo"
+
+#: ../src/control.cc:999
+msgid "View world"
+msgstr "Ver mundo"
+
+#: ../src/control.cc:1000
+msgid "Run graphics"
+msgstr "Produzir gráficos"
+
+#: ../src/control.cc:1001
+msgid "Take a picture"
+msgstr "Salvar imagem"
+
+#: ../src/control.cc:1002
+msgid "Quit"
+msgstr "Sair"
+
+#: ../src/control.cc:1010
+msgid "Virtual anthropoids"
+msgstr "Antropóides virtuais"
+
+#: ../src/control.cc:1161
+msgid "The image can be created only if the world is visible."
+msgstr "A imagem somente pode ser criada se o mundo estiver visível."
+
+#: ../src/listWindow.cc:31
+msgid "Agent List"
+msgstr "Lista de agentes"
+
+#: ../src/listWindow.cc:41
+msgid "Age"
+msgstr "Idade"
+
+#: ../src/listWindow.cc:42
+msgid "Sex"
+msgstr "Sexo"
+
+#: ../src/listWindow.cc:43
+msgid "Energy"
+msgstr "Energia"
+
+#~ msgid "Take a picture of the world"
+#~ msgstr "Salvar uma imagem do mundo"
