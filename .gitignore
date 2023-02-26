@@ -10,3 +10,4 @@ src/lastParameters
 src/parameters
 src/statistics
 src/world_*.png
+src/compile_flags*
