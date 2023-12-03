@@ -3950,7 +3950,7 @@ Alliance* Agent::createAllianceAgainst(Agent *enemy)
         char *fname = friends[i].a->name;
         if(STRCMP(fname, name) == 0 && this == friends[i].a)
             FATALERR("name == name : %s %p %p\n",
-                    name, this, friends[i].a);
+                    name, (void*)this, (void*)friends[i].a);
         Alliance *otherA;
         otherA = friends[i].a->myAlliance;
         if(otherA == myAlliance){
@@ -3974,7 +3974,7 @@ Alliance* Agent::createAllianceAgainst(Agent *enemy)
             myAlliance->allies->end(); printf("\n");
             ag = friends[i].a;
             FATALERR("%s |%p %p | %s %s | %d %d | %f %f",
-                    myAlliance->ldName, this, ag, name, ag->name, age, ag->age, energy,
+                    myAlliance->ldName, (void*)this, (void*)ag, name, ag->name, age, ag->age, energy,
                     ag->energy);
         }
 #endif
@@ -5065,7 +5065,7 @@ void Agent::receiveFromMom(double e)
 void Agent::parentIsDead(Agent *parent, char s)
 {
     if(parent != mother && parent != father)
-        FATALERR("%p : %p : %p", parent, mother, father);
+        FATALERR("%p : %p : %p", (void*)parent, (void*)mother, (void*)father);
 #else
     void Agent::parentIsDead(char s)
     {
@@ -5084,7 +5084,7 @@ void Agent::parentIsDead(Agent *parent, char s)
         if(children->getCount() == 0)
             FATALERR("(children->getCount() == 0)\n");
         if(children->remove(child) == false)
-            FATALERR("%p %c, born=%d age=%e\n", child, child->sex, SimTime - child->age, child->age);
+            FATALERR("%p %c, born=%d age=%d\n", (void*)child, child->sex, SimTime - child->age, child->age);
 #else
         children->remove(child);
 #endif

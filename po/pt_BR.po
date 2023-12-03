@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anthropoids-1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-24 08:33-0300\n"
+"POT-Creation-Date: 2023-12-03 11:41-0300\n"
 "PO-Revision-Date: 2022-10-05 22:15-0300\n"
 "Last-Translator: Jakson Alves de Aquino <jalvesaq@gmail.com>\n"
 "Language-Team: pt <LL@li.org>\n"
@@ -218,24 +218,24 @@ msgstr ""
 msgid "Could not find \"%s\"\n"
 msgstr "Arquivo \"%s\" não encontrado\n"
 
-#: ../src/Model.cc:379 ../src/Model.cc:410
+#: ../src/Model.cc:366 ../src/Model.cc:397
 #, c-format
 msgid "Error running \"%s\"."
 msgstr "Error executando \"%s\"."
 
-#: ../src/Model.cc:432
+#: ../src/Model.cc:419
 msgid "Could not run a pdf reader."
 msgstr "Não foi possível executar leitor de pdf."
 
-#: ../src/Model.cc:438
+#: ../src/Model.cc:425
 msgid "Is R installed?"
 msgstr "O R está instalado?"
 
-#: ../src/Model.cc:504
+#: ../src/Model.cc:491
 msgid "Error creating file \"parameters\" with default values."
 msgstr "Erro criando arquivo \"parameters\" com valores padrões."
 
-#: ../src/Model.cc:697
+#: ../src/Model.cc:684
 msgid ""
 "The file \"parameters\" was written with default values.\n"
 "         Edit it to change \"anthropoids\" behavior."
@@ -243,20 +243,20 @@ msgstr ""
 "AVISO: O arquivo \"parameters\" foi escrito com valores padrões.\n"
 "       Será preciso editá-lo para alterar o comportamento do \"anthropoids\"."
 
-#: ../src/Model.cc:712
+#: ../src/Model.cc:699
 msgid "Error opening file \"parameters\""
 msgstr "Erro abrindo o arquivo \"parameters\""
 
-#: ../src/Model.cc:716
+#: ../src/Model.cc:703
 msgid "Error writing file \"lastParameters\""
 msgstr "Erro escrevendo o arquivo \"parameters\""
 
-#: ../src/Model.cc:910
+#: ../src/Model.cc:897
 #, c-format
 msgid "parameter \"%s\" is unitialized!\n"
 msgstr "parâmetro \"%s\" não foi inicializado!\n"
 
-#: ../src/Model.cc:944
+#: ../src/Model.cc:931
 #, c-format
 msgid ""
 "The world dimensions (%d x %d) aren't enough to carry %d trees! Please, "
@@ -265,17 +265,17 @@ msgstr ""
 "As dimensões do mundo (%d x %d) não são suficientes para %d árvores! Escolha "
 "uma densidade menor para as árvores.\n"
 
-#: ../src/Model.cc:952
+#: ../src/Model.cc:939
 #, c-format
 msgid "Tree%dSeasonEnd must be bigger than Tree%dSeasonBegin!\n"
 msgstr "Tree%dSeasonEnd deve ser maior do que Tree%dSeasonBegin!\n"
 
-#: ../src/Model.cc:957
+#: ../src/Model.cc:944
 #, c-format
 msgid "Tree%dSeasonEnd must be lower than YearDuration!\n"
 msgstr "Tree%dSeasonEnd deve ser menor do que YearDuration!\n"
 
-#: ../src/Model.cc:962
+#: ../src/Model.cc:949
 #, c-format
 msgid ""
 "Both WorldXSize and WorldYSize must be at least twice as big as MaxVision!\n"
@@ -283,17 +283,17 @@ msgstr ""
 "WorldXSize ed WorldYSize devem ser pelo menos duas vezes maiores do que "
 "MaxVision!\n"
 
-#: ../src/Model.cc:966
+#: ../src/Model.cc:953
 #, c-format
 msgid "MaxVision can't be shorter than NearView!\n"
 msgstr "MaxVision não pode ser menor curta do que NearView!\n"
 
-#: ../src/Model.cc:975
+#: ../src/Model.cc:962
 #, c-format
 msgid "MaxEnergy must be at least 5.0!\n"
 msgstr "MaxEnergy deve ser pelo menos 5.0!\n"
 
-#: ../src/Model.cc:1345
+#: ../src/Model.cc:1332
 #, c-format
 msgid ""
 "Dumping agents' memory to \"agRemembrances.csv\" and entire population to "
@@ -302,27 +302,27 @@ msgstr ""
 "Salvando memória dos agentes em agRemembrances.csv e a população completa em "
 "entirePop.csv.\n"
 
-#: ../src/Model.cc:1375
+#: ../src/Model.cc:1362
 #, c-format
 msgid "Creating cells.\n"
 msgstr "Criando células.\n"
 
-#: ../src/Model.cc:1420 ../src/Model.cc:1425
+#: ../src/Model.cc:1407 ../src/Model.cc:1412
 msgid "gridTemplate.pbm isn't a valid pbm file in ascii format."
 msgstr "gridTemplate.pbm não é uma arquivo pbm no formato ascii válido."
 
-#: ../src/Model.cc:1432
+#: ../src/Model.cc:1419
 msgid "Error reading gridTemplate.pbm. Could not find the pbm width."
 msgstr ""
 "Erro lendo gridTemplate.pbm. Não foi possível encontrar a largura da figura."
 
-#: ../src/Model.cc:1434
+#: ../src/Model.cc:1421
 msgid "Error reading gridTemplate.pbm. Could not find the pbm height."
 msgstr ""
 "Erro lendo gridTemplate.pbm. Não foi possível encontrar o comprimento da "
 "figura."
 
-#: ../src/Model.cc:1436
+#: ../src/Model.cc:1423
 msgid ""
 "The gridTemplate.pbm dimensions must be either the same or bigger than the "
 "world ones."
@@ -330,51 +330,51 @@ msgstr ""
 "As dimensões de gridTemplate.pbm devem ser iguais ou maiores do que as do "
 "mundo."
 
-#: ../src/Model.cc:1446
+#: ../src/Model.cc:1433
 msgid "Ran out of data reading gridTemplate.pbm."
 msgstr "Quantidade insuficiente de dados em gridTemplate."
 
-#: ../src/Model.cc:1471
+#: ../src/Model.cc:1458
 #, c-format
 msgid "Creating trees.\n"
 msgstr "Criando árvores.\n"
 
-#: ../src/Model.cc:1548
+#: ../src/Model.cc:1535
 #, c-format
 msgid "Merging adjacent patches of trees.\n"
 msgstr "Unindo aglomerados de árvores adjacentes.\n"
 
-#: ../src/Model.cc:1550
+#: ../src/Model.cc:1537
 #, c-format
 msgid "Initial number of patches: %d\n"
 msgstr "Número inicial de regiões: %d\n"
 
-#: ../src/Model.cc:1577
+#: ../src/Model.cc:1564
 #, c-format
 msgid "Final number of patches: %d\n"
 msgstr "Número final de regiões: %d\n"
 
-#: ../src/Model.cc:1603
+#: ../src/Model.cc:1590
 #, c-format
 msgid "Creating terrestrial herbaceous vegetation.\n"
 msgstr "Criando vegetação rasteira.\n"
 
-#: ../src/Model.cc:1844
+#: ../src/Model.cc:1831
 #, c-format
 msgid "THE END: Year %d, day %d (n_males = %d, n_females = %d)\n"
 msgstr "FIM: Ano %d, dia %d (n_machos = %d, n_fêmeas = %d)\n"
 
-#: ../src/Model.cc:1862
+#: ../src/Model.cc:1849
 #, c-format
 msgid "Error trying to create the file \"agRemembrances.csv\".\n"
 msgstr "Erro tentando criar o arquivo \"agRemembrances.csv\".\n"
 
-#: ../src/Model.cc:1867
+#: ../src/Model.cc:1854
 #, c-format
 msgid "Error trying to create the file \"knownPatches\".\n"
 msgstr "Erro tentando criar o arquivo \"agRemembrances.csv\".\n"
 
-#: ../src/Model.cc:1925
+#: ../src/Model.cc:1912
 #, c-format
 msgid ""
 "\n"
@@ -383,7 +383,7 @@ msgstr ""
 "\n"
 "Salvando memória dos agentes no arquivo \"agRemembrances.csv\".\n"
 
-#: ../src/abmtools.cc:63
+#: ../src/abmtools.cc:64
 #, c-format
 msgid ""
 "FATAL ERROR: \"%s\", line %d\n"
@@ -392,11 +392,11 @@ msgstr ""
 "ERRO FATAL: \"%s\", linha %d\n"
 "    "
 
-#: ../src/abmtools.cc:67
+#: ../src/abmtools.cc:68
 msgid "FATAL ERROR!"
 msgstr "ERRO FATAL!"
 
-#: ../src/abmtools.cc:93 ../src/abmtools.cc:101 ../src/abmtools.cc:103
+#: ../src/abmtools.cc:95 ../src/abmtools.cc:103 ../src/abmtools.cc:105
 #, c-format
 msgid "Warning:"
 msgstr "Aviso:"

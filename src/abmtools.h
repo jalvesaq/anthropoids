@@ -38,7 +38,9 @@ class Eukaryote : public Thing
 
 double getRandDouble(double min, double max);
 int getRandInt(int min, int max);
+__attribute__((format(printf,3,4)))
 void fatalErr(const char *modulname, int lno, const char *fmt, ...);
+__attribute__((format(printf,1,2)))
 void warnMsg(const char *fmt, ...);
 
 // based on swarm code

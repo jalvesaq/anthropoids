@@ -38,7 +38,7 @@ void Alliance::removeAlly(Agent *ag, double e)
 {
 #ifdef DEBUG
     if(ag->myAlliance != this)
-        FATALERR("[ag getAlliance] != this (%p %p)", ag, this);
+        FATALERR("[ag getAlliance] != this (%p %p)", (void*)ag, (void*)this);
     if(nallies == 1)
         FATALERR("error");
     if(allies->remove(ag) == false)
@@ -98,7 +98,7 @@ void Alliance::flyFrom(Agent *ag, Patch *p)
     while((a = (Agent*)allies->next())){
 #ifdef DEBUG
         if(a->myAlliance != this)
-            FATALERR("a getAlliance != this (%p %p)", a, this);
+            FATALERR("a getAlliance != this (%p %p)", (void*)a, (void*)this);
 #endif
         a->flyFromX(ag->x, ag->y, p);
     }
@@ -209,7 +209,7 @@ Alliance::~Alliance()
     while((a = (Agent*)allies->next())){
 #ifdef DEBUG
         if(a->myAlliance != this)
-            FATALERR("a getAlliance != this (%p %p)", a, this);
+            FATALERR("a getAlliance != this (%p %p)", (void*)a, (void*)this);
 #endif
         a->myAlliance = NULL;
     }

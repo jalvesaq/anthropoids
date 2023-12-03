@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-24 08:33-0300\n"
+"POT-Creation-Date: 2023-12-03 11:41-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -215,168 +215,168 @@ msgstr ""
 msgid "Could not find \"%s\"\n"
 msgstr ""
 
-#: ../src/Model.cc:379 ../src/Model.cc:410
+#: ../src/Model.cc:366 ../src/Model.cc:397
 #, c-format
 msgid "Error running \"%s\"."
 msgstr ""
 
-#: ../src/Model.cc:432
+#: ../src/Model.cc:419
 msgid "Could not run a pdf reader."
 msgstr ""
 
-#: ../src/Model.cc:438
+#: ../src/Model.cc:425
 msgid "Is R installed?"
 msgstr ""
 
-#: ../src/Model.cc:504
+#: ../src/Model.cc:491
 msgid "Error creating file \"parameters\" with default values."
 msgstr ""
 
-#: ../src/Model.cc:697
+#: ../src/Model.cc:684
 msgid ""
 "The file \"parameters\" was written with default values.\n"
 "         Edit it to change \"anthropoids\" behavior."
 msgstr ""
 
-#: ../src/Model.cc:712
+#: ../src/Model.cc:699
 msgid "Error opening file \"parameters\""
 msgstr ""
 
-#: ../src/Model.cc:716
+#: ../src/Model.cc:703
 msgid "Error writing file \"lastParameters\""
 msgstr ""
 
-#: ../src/Model.cc:910
+#: ../src/Model.cc:897
 #, c-format
 msgid "parameter \"%s\" is unitialized!\n"
 msgstr ""
 
-#: ../src/Model.cc:944
+#: ../src/Model.cc:931
 #, c-format
 msgid ""
 "The world dimensions (%d x %d) aren't enough to carry %d trees! Please, "
 "choose a lower density for trees.\n"
 msgstr ""
 
-#: ../src/Model.cc:952
+#: ../src/Model.cc:939
 #, c-format
 msgid "Tree%dSeasonEnd must be bigger than Tree%dSeasonBegin!\n"
 msgstr ""
 
-#: ../src/Model.cc:957
+#: ../src/Model.cc:944
 #, c-format
 msgid "Tree%dSeasonEnd must be lower than YearDuration!\n"
 msgstr ""
 
-#: ../src/Model.cc:962
+#: ../src/Model.cc:949
 #, c-format
 msgid ""
 "Both WorldXSize and WorldYSize must be at least twice as big as MaxVision!\n"
 msgstr ""
 
-#: ../src/Model.cc:966
+#: ../src/Model.cc:953
 #, c-format
 msgid "MaxVision can't be shorter than NearView!\n"
 msgstr ""
 
-#: ../src/Model.cc:975
+#: ../src/Model.cc:962
 #, c-format
 msgid "MaxEnergy must be at least 5.0!\n"
 msgstr ""
 
-#: ../src/Model.cc:1345
+#: ../src/Model.cc:1332
 #, c-format
 msgid ""
 "Dumping agents' memory to \"agRemembrances.csv\" and entire population to "
 "\"entirePop.csv\".\n"
 msgstr ""
 
-#: ../src/Model.cc:1375
+#: ../src/Model.cc:1362
 #, c-format
 msgid "Creating cells.\n"
 msgstr ""
 
-#: ../src/Model.cc:1420 ../src/Model.cc:1425
+#: ../src/Model.cc:1407 ../src/Model.cc:1412
 msgid "gridTemplate.pbm isn't a valid pbm file in ascii format."
 msgstr ""
 
-#: ../src/Model.cc:1432
+#: ../src/Model.cc:1419
 msgid "Error reading gridTemplate.pbm. Could not find the pbm width."
 msgstr ""
 
-#: ../src/Model.cc:1434
+#: ../src/Model.cc:1421
 msgid "Error reading gridTemplate.pbm. Could not find the pbm height."
 msgstr ""
 
-#: ../src/Model.cc:1436
+#: ../src/Model.cc:1423
 msgid ""
 "The gridTemplate.pbm dimensions must be either the same or bigger than the "
 "world ones."
 msgstr ""
 
-#: ../src/Model.cc:1446
+#: ../src/Model.cc:1433
 msgid "Ran out of data reading gridTemplate.pbm."
 msgstr ""
 
-#: ../src/Model.cc:1471
+#: ../src/Model.cc:1458
 #, c-format
 msgid "Creating trees.\n"
 msgstr ""
 
-#: ../src/Model.cc:1548
+#: ../src/Model.cc:1535
 #, c-format
 msgid "Merging adjacent patches of trees.\n"
 msgstr ""
 
-#: ../src/Model.cc:1550
+#: ../src/Model.cc:1537
 #, c-format
 msgid "Initial number of patches: %d\n"
 msgstr ""
 
-#: ../src/Model.cc:1577
+#: ../src/Model.cc:1564
 #, c-format
 msgid "Final number of patches: %d\n"
 msgstr ""
 
-#: ../src/Model.cc:1603
+#: ../src/Model.cc:1590
 #, c-format
 msgid "Creating terrestrial herbaceous vegetation.\n"
 msgstr ""
 
-#: ../src/Model.cc:1844
+#: ../src/Model.cc:1831
 #, c-format
 msgid "THE END: Year %d, day %d (n_males = %d, n_females = %d)\n"
 msgstr ""
 
-#: ../src/Model.cc:1862
+#: ../src/Model.cc:1849
 #, c-format
 msgid "Error trying to create the file \"agRemembrances.csv\".\n"
 msgstr ""
 
-#: ../src/Model.cc:1867
+#: ../src/Model.cc:1854
 #, c-format
 msgid "Error trying to create the file \"knownPatches\".\n"
 msgstr ""
 
-#: ../src/Model.cc:1925
+#: ../src/Model.cc:1912
 #, c-format
 msgid ""
 "\n"
 "Dumping the memory of agents into \"agRemembrances.csv\".\n"
 msgstr ""
 
-#: ../src/abmtools.cc:63
+#: ../src/abmtools.cc:64
 #, c-format
 msgid ""
 "FATAL ERROR: \"%s\", line %d\n"
 "    "
 msgstr ""
 
-#: ../src/abmtools.cc:67
+#: ../src/abmtools.cc:68
 msgid "FATAL ERROR!"
 msgstr ""
 
-#: ../src/abmtools.cc:93 ../src/abmtools.cc:101 ../src/abmtools.cc:103
+#: ../src/abmtools.cc:95 ../src/abmtools.cc:103 ../src/abmtools.cc:105
 #, c-format
 msgid "Warning:"
 msgstr ""

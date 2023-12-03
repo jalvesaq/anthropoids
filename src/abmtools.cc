@@ -52,6 +52,7 @@ int getRandInt(int min, int max)
     return ir;
 }
 
+__attribute__((format(printf,3,4)))
 void fatalErr(const char *modulname, int lno, const char *fmt, ...)
 {
     va_list argptr;
@@ -80,6 +81,7 @@ void fatalErr(const char *modulname, int lno, const char *fmt, ...)
     exit(1);
 }
 
+__attribute__((format(printf,1,2)))
 void warnMsg(const char *fmt, ...)
 {
     va_list argptr;

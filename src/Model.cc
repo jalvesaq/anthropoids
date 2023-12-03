@@ -1574,7 +1574,7 @@ void Model::buildObjects()
 #ifdef DEBUG
     if((unsigned int)patchList->getCount() != nPatches)
         FATALERR("[patchList getCount] != nPatches (%d, %d)",
-                (unsigned int)patchList->getCount() != nPatches);
+                (unsigned int)patchList->getCount(), nPatches);
     patchList->begin();
     n = 0;
     while((pa = (Patch*)patchList->next()))
